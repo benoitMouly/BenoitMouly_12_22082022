@@ -1,0 +1,6 @@
+{
+    "post/user/:id": "/user/:id",
+    "/user/:id/activity/": "/user/:id/activity/",
+    "/user/:id/average-sessions": "/user/:id/average-sessions",
+    "/user/:id/performance": "/user/:id/performance"
+  }
