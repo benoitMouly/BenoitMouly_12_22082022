@@ -1,0 +1,34 @@
+.circlechart-main{
+    position: relative;
+    width: 258px;
+    height: 263px;
+    background-color: #FBFBFB;
+    /* padding: 25px; */
+    border-radius: 5px;
+}
+
+.circlechart-header{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+	top: 10px;
+	left: 10px;
+}
+
+.circlechart-legend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circlechart-score{
+    font-size: 26px;
+    font-weight: 600;
+    color: #282D30;
+}
+
+.circlechart-verbatim{
+    font-size: 16px;
+    font-weight: bold;
+    color: #9B9EAC;
+}

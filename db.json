@@ -20,6 +20,7 @@
               {
                 
                 "id": 18,
+                "data": {
                 "userInfos": {
                   "firstName": "Cecilia",
                   "lastName": "Ratorez",
@@ -32,7 +33,7 @@
                   "carbohydrateCount": 150,
                   "lipidCount": 120
                 }
-              }
+              }}
             
 
   ],
@@ -82,6 +83,7 @@
     },
     {
       "userId": 18,
+      "data": {
       "sessions": [
         {
           "day": "2020-07-01",
@@ -119,6 +121,7 @@
           "calories": 390
         }
       ]
+    }
     }
   ],
   "average-sessions": [
@@ -159,6 +162,7 @@
     },
     {
       "userId": 18,
+      "data": {
       "sessions": [
         {
           "day": 1,
@@ -189,6 +193,7 @@
           "sessionLength": 50
         }
       ]
+    }
     }
   ],
   "performance": [

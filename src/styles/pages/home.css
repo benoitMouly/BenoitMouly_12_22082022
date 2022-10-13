@@ -1,0 +1,28 @@
+.stats1 {
+    width: max-content;
+    flex-basis:65%; 
+}
+
+.stats2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Enleve le margin sur radarChart + ajoute margin à droite sur radarChart et .sc-gsnTZi */
+.radarChart, .sc-gsnTZi, .sc-hKMtZM{
+    width: 25%;
+}
+
+.stats-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.stats-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    flex-basis:35%; 
+}
+
