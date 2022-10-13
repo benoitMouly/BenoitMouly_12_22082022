@@ -2,7 +2,6 @@
 * @constructor
 * @param {object} data - User information retrieved
 */
-
 export default class User {
     constructor (data) {
             this.name = data.userInfos.firstName

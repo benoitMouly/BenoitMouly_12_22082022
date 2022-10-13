@@ -25,6 +25,6 @@ Watch the db.json who contains data for local mode (without back started)
 >  prop-types (https://www.npmjs.com/package/prop-types)
 > recharts (https://www.npmjs.com/package/recharts)
 
----------------
-https://forthebadge.com/images/badges/made-with-javascript.svg
+---------------g
 https://forthebadge.com/images/badges/certified-elijah-wood.svg
+[![forthebadge](https://forthebadge.com/images/badges/certified-elijah-wood.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
