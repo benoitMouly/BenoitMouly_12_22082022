@@ -1,0 +1,63 @@
+:root{
+    --blackModified: #282d30;
+    --redModified: #e60000;
+}
+
+.barchart-legend{
+    display: flex;
+}
+
+.barchart-legend > h2{
+    font-size: 1rem;
+    color: black;
+}
+
+.barchart-legend > ul{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 1rem;
+}
+
+.barchart-legend > ul > li{
+    display: flex;
+    align-items: center;
+    color: #74798C;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.barchart-legend > ul > li:before{
+    display: block;
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.barchart-legend > ul > li:first-child:before{
+    background-color: var(--blackModified);
+}
+
+.barchart-legend > ul > li:last-child:before {
+    background-color: var(--redModified);
+}
+
+.barchart-main{
+    height: 300px;
+    width: 835px;
+    background: #FBFBFB;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1.5rem; */
+}
+
+.barchart-tooltip{
+    background-color: var(--redModified);
+    font-size: 12px;
+    padding: 15px 10px;
+    font-weight: 500;
+    color: #fff;
+}

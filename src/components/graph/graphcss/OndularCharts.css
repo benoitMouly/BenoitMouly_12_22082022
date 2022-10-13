@@ -1,0 +1,35 @@
+.ondularchart-main{
+    position: relative;
+    width: 258px;
+    height: 263px;
+    border-radius: 5px;
+    background-color: #FF0000;
+}
+
+.ondularchart-header{
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+.ondularchart-header > h2{
+    width: 12rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.ondularchart-tooltip{
+    width:2.5rem;
+    height: 1.5rem;  
+    text-align: center;
+    padding-top:5px;
+    font-size: 10px;
+    font-weight:600;
+    background-color: #FFFFFF;
+    border: none;
+}

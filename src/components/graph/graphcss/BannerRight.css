@@ -1,0 +1,43 @@
+.sidebarRight-ol {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-between;
+    height:  545px;
+}
+
+.sidebarRight-li{
+    display: flex;
+}
+
+.stats-right{
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 100%;
+}
+
+.dataName{
+    font-size: 14px;
+    font-weight: 500;
+    color: #74798C;
+}
+
+.energy, .proteins, .glucides, .lipids{
+    padding: 20px;
+    border-radius: 5px;
+}
+.energy{
+    background: rgba(255, 0, 0, 0.1);
+}
+.proteins{
+    background: rgba(74, 184, 255, 0.1);
+}
+
+.glucides{
+    background: rgba(249, 206, 35, 0.1);
+}
+
+.lipids{
+    background: rgba(253, 81, 129, 0.1);
+}

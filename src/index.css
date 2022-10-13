@@ -11,3 +11,134 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* HEADER */
+
+header{
+  position:absolute;
+  left:0; right:0;
+  height: 92px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+
+  width: 1213px;
+}
+
+.headerElt-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.headerElt-nav-ol{
+  width: 100%;
+  height: 100%;
+}
+
+.headerElt-nav > ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  padding: 0;
+}
+
+
+/* FOOTER */
+
+
+footer{
+  position:absolute;
+  left:0; top:91px; bottom: 0;
+  width: 117px;
+  background-color: #000;
+  color: #fff;
+
+  height: 845px;
+}
+
+.footerElt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  /* top: 25px; */
+  height: 100%;
+  width: 100%;
+}
+.footerElt-icons > ol {
+  list-style-type: none;
+  padding: 0;
+}
+.footerElt-ol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.footerElt-li{
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.footerElt-copyright{
+  transform: rotate(-90deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  white-space: nowrap; /* Evite de break le text */ 
+}
+
+
+
+
+/* MAIN */ 
+
+main {
+  position: absolute;
+  left:170px; top:91px; right:0; bottom:0;
+}
+
+
+/* BANNER RIGHT */ 
+
+.sidebarRight-ol{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  /* top: 25px; */
+  height: 320px;
+  /* width: 100%; */
+}
