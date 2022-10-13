@@ -1,4 +1,5 @@
-
+# Synopsis de projet 
+Vous travaillez en tant que développeur chez SportSee, une startup dédiée au coaching sportif. En pleine croissance, l’entreprise va aujourd’hui lancer une nouvelle version de la page profil de l’utilisateur. Cette page va notamment permettre à l’utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.
 # Débuter le projet
 
 Warning : starts on port 30001
@@ -26,4 +27,5 @@ Watch the db.json who contains data for local mode (without back started)
 > recharts (https://www.npmjs.com/package/recharts)
 
 ---------------
+
 [![forthebadge](https://forthebadge.com/images/badges/certified-elijah-wood.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
