@@ -38,7 +38,7 @@ const introStyle = {
 /* propTypes */ 
 
 Heading.propTypes = {
-    userGeneralInfos: propTypes.array.isRequired
+    userGeneralInfos: propTypes.array
   }
 
 export default Heading;

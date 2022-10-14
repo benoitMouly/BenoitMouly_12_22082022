@@ -36,15 +36,15 @@ const truc = {
 }
 
 const marged = {
-    'margin-left': '1rem',
-    'font-weight': '700',
-    'font-size': '20px'
+    'marginLeft': '1rem',
+    'fontWeight': '700',
+    'fontSize': '20px'
 }
 
 /* propTypes */ 
 
 BannerRight.propTypes = {
-    datas: propTypes.array.isRequired
+    datas: propTypes.array
   }
 
 

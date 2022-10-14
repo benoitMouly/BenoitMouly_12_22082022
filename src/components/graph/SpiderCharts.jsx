@@ -42,7 +42,7 @@ const datasAll = datas.generalInfoDatas.userPerformance.datas
 /* propTypes */ 
 
 SpiderCharts.propTypes = {
-  datas: propTypes.array.isRequired
+  datas: propTypes.array
 }
 
 

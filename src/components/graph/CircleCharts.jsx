@@ -58,7 +58,7 @@ const InternLegend = (payload) => {
 /* propTypes */  
 
 CircleCharts.propTypes = {
-  datas: propTypes.array.isRequired
+  datas: propTypes.array
 }
 InternLegend.propTypes = {
   payload: propTypes.array
