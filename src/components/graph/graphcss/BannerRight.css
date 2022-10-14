@@ -4,12 +4,15 @@
     list-style-type: none;
     justify-content: space-between;
     height:  545px;
-    padding-left: 28px;
+    padding-left: 15px;
     margin-bottom: 0;
 }
 
 .sidebarRight-li{
     display: flex;
+    padding: 10px;
+    background: #FBFBFB;
+    max-height: 100%;
 }
 
 .stats-right{
