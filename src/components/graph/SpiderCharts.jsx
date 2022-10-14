@@ -30,7 +30,7 @@ const datasAll = datas.generalInfoDatas.userPerformance.datas
         <RadarChart startAngle={90} endAngle={-270} outerRadius={70} data={datasAll} strokeWidth={1.5} className="radarStart">
           <PolarGrid radialLines={false} />
           <PolarRadiusAxis tickCount={5} tick={false} axisLine={false} />
-          <PolarAngleAxis  dataKey='kind' tick={{ fontSize: '12px', fill: '#FFFFFF' }} tickFormatter={formatYAxis}/>
+          <PolarAngleAxis  dataKey='kind' tick={{ fontSize: '10px', fill: '#FFFFFF' }} tickFormatter={formatYAxis}/>
           <Radar  dataKey='value' stroke="false" fill="rgba(255, 1, 1, 0.7)" />
         </RadarChart>
       </ResponsiveContainer>

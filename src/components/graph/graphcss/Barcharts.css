@@ -46,12 +46,10 @@
 
 .barchart-main{
     height: 300px;
-    width: 835px;
     background: #FBFBFB;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    /* padding: 1.5rem; */
 }
 
 .barchart-tooltip{
