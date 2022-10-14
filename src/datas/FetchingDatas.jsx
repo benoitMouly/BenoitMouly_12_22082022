@@ -13,7 +13,7 @@ const FetchingDatas = () => {
     
     const [data, setData] = useState();
     useEffect(() => {
-        const idArray = ['12', '18'] // Automaticaly switching while reloading datas
+        const idArray = ['12', '18'] // Automaticaly switching while reloading
         const  idUser  = idArray[Math.floor(Math.random() * idArray.length)];
         Promise.all([
             fetch("http://localhost:3000/user/" + idUser).then(value => value.json()),

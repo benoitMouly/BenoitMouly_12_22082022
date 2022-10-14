@@ -71,7 +71,7 @@ const CustomTooltip = ({ active, payload }) => {
 /* propTypes */  
 
 OndularCharts.propTypes = {
-  datas: propTypes.array.isRequired
+  datas: propTypes.array
 }
 CustomTooltip.propTypes = {
   payload: propTypes.array,

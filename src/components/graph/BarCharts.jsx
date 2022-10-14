@@ -60,7 +60,7 @@ const CustomTooltip = ({ active, payload }) => {
 /* propTypes */ 
 
 BarCharts.propTypes = {
-  datas: propTypes.array.isRequired
+  datas: propTypes.array
 }
 CustomTooltip.propTypes = {
   payload: propTypes.array,
