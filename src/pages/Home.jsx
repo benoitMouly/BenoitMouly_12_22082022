@@ -21,7 +21,7 @@ import '../styles/pages/home.css';
 
 const Home = () =>{
     /*
-    * On appelle notre function qui Fetch nos datas
+    * We call our functions who's fetching our datas
     */
 
     const data = FetchingDatas();
@@ -36,8 +36,8 @@ const Home = () =>{
       let userAverageSessions;
       let userPerformance;
 
-      /**
-       * On push les différentes données récoltées pour les passer en props plus tard
+      /*
+       * We push our differents datas to pass them later on into props
        */
 
       userGeneralInfos = data.userGeneral
