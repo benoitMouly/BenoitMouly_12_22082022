@@ -38,7 +38,7 @@ const truc = {
 const marged = {
     'marginLeft': '1rem',
     'fontWeight': '700',
-    'fontSize': '20px'
+    'fontSize': '16px'
 }
 
 /* propTypes */ 

@@ -16,10 +16,10 @@ const BannerLeft = () => {
             <div className="footerElt">
                 <div className="footerElt-icons">
                     <ol className='footerElt-ol'>
-                        <li className='footerElt-li'><img src={meditationicon} alt="altable"/></li>
-                        <li className='footerElt-li'><img src={swimicon} alt="altable"/></li>
-                        <li className='footerElt-li'><img src={bicycleicon} alt="altable"/></li>
-                        <li className='footerElt-li'><img src={poundsicon} alt="altable"/></li>
+                        <li className='footerElt-li'><img src={meditationicon} alt="altable" className='footerEltIcon'/></li>
+                        <li className='footerElt-li'><img src={swimicon} alt="altable" className='footerEltIcon'/></li>
+                        <li className='footerElt-li'><img src={bicycleicon} alt="altable" className='footerEltIcon'/></li>
+                        <li className='footerElt-li'><img src={poundsicon} alt="altable" className='footerEltIcon'/></li>
                     </ol>
                 </div>
                 <div className="footerElt-copyright">
