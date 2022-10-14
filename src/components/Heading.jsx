@@ -12,7 +12,7 @@ import propTypes from 'prop-types';
 const Heading = (userGeneralInfos) => {
     return (
         <div>
-            <h2 className='heading-user' style={headerTextStyle}>Bonjour <span className='user-name' style={nameStyle}>{userGeneralInfos.generalInfos.name} {userGeneralInfos.calorieCount}</span></h2>
+            <h2 className='heading-user' style={headerTextStyle}>Bonjour <span className='user-name' style={nameStyle}>{userGeneralInfos.generalInfos.name} </span></h2>
             <p style={introStyle}> Félicitation ! Vous avez explosé vos objectifs hier 👏</p>
         </div>
     );

@@ -32,9 +32,6 @@ const Home = () =>{
       }
       
       let userGeneralInfos;
-      let userActivityInfos;
-      let userAverageSessions;
-      let userPerformance;
 
       /*
        * We push our differents datas to pass them later on into props
@@ -42,17 +39,13 @@ const Home = () =>{
 
       userGeneralInfos = data.userGeneral
     //   console.log(data)
-    //   console.log(...userGeneralInfos)
-      userActivityInfos = data.userActivity
-      userAverageSessions = data.userAverageSessions;
-      userPerformance = data.userPerformance
 
 return(
     <div className="home-body">
         <BannerTop/>
         <BannerLeft/>
         <main>
-            <Heading generalInfos={{...userGeneralInfos}} generalActivity={{...userActivityInfos}} generalAverageSessions={{...userAverageSessions}} generalPerformance={{...userPerformance}}/>
+            <Heading generalInfos={userGeneralInfos}/>
             <div className="stats-main">
                 <div className="stats1">
                     <BarCharts generalInfoDatas ={data}/>

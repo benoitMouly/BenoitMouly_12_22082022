@@ -10,6 +10,9 @@ Warning : starts on port 30001
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+
+It installs needed depedencies
 
 ### `npm start`
 
@@ -30,5 +33,6 @@ Watch the db.json who contains data for local mode (without back started)
 > recharts (https://www.npmjs.com/package/recharts)
 
 ---------------
+NPM version : 8.5.0
 
 [![forthebadge](https://forthebadge.com/images/badges/certified-elijah-wood.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
