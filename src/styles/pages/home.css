@@ -1,9 +1,9 @@
 .stats1 {
     width: 90%;
     flex-basis:65%; 
-    row-gap: 1rem;
     flex-direction: column;
     display: flex;
+    margin-top: 10px;
 }
 
 .stats2 {
@@ -19,6 +19,7 @@
 .stats-main{
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
 }
 
 .stats-right{

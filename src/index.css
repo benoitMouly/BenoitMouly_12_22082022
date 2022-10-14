@@ -22,7 +22,7 @@ code {
 header{
   position:absolute;
   left:0; right:0;
-  height: 92px;
+  height: 77px;
   background-color: #000;
   color: #fff;
   display: flex;
@@ -63,7 +63,7 @@ header{
 
 footer{
   position:absolute;
-  left:0; top:91px; bottom: 0;
+  left:0; top:75px; bottom: 0;
   width: 90px;
   background-color: #000;
   color: #fff;

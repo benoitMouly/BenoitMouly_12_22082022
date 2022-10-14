@@ -22,13 +22,13 @@ const nameStyle = {
     color: "#FF0101"
 }
 const headerTextStyle = {
-    fontSize: '48px',
+    fontSize: '38px',
     fontWeight: '500',
     fontFamily: 'Roboto',
     marginBottom: '1rem'
 }
 const introStyle = {
-    fontSize: '24px',
+    fontSize: '15px',
     fontWeight: '300',
     fontFamily: 'Roboto',
     marginBottom: '0',
