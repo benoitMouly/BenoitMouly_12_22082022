@@ -1,5 +1,8 @@
 # Synopsis de projet 
 Vous travaillez en tant que développeur chez SportSee, une startup dédiée au coaching sportif. En pleine croissance, l’entreprise va aujourd’hui lancer une nouvelle version de la page profil de l’utilisateur. Cette page va notamment permettre à l’utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.
+
+You work as a developer at SportSee, a startup dedicated to sports coaching. In full growth, the company will today launch a new version of the user profile page. This page will in particular allow the user to follow the number of sessions carried out as well as the number of calories burned.
+
 # Débuter le projet
 
 Warning : starts on port 30001
@@ -20,7 +23,7 @@ You may also see any lint errors in the console.
 Watch the db.json who contains data for local mode (without back started)
 
 
-## Depedances 
+## Depedencies 
 > d3 (https://www.npmjs.com/package/d3)
 > json-server (https://www.npmjs.com/package/json-server)
 >  prop-types (https://www.npmjs.com/package/prop-types)

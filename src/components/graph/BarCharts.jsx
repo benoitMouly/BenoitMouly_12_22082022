@@ -31,8 +31,8 @@ const BarCharts = (datas) => {
           <YAxis yAxisId='kilogram' orientation='right' tickLine={false} axisLine={false} tickCount={4} />
           <YAxis yAxisId='calories' hide orientation='right' />
           <Tooltip content={<CustomTooltip />} isAnimationActive={true}  />
-          <Bar yAxisId='kilogram' dataKey='kilogram' fill='#282D30' barSize={10}/>
-          <Bar yAxisId='calories' dataKey='calories' fill='#E60000' barSize={10} />
+          <Bar yAxisId='kilogram' dataKey='kilogram' fill='#E60000' radius={[5, 5, 0, 0]} barSize={5}/>
+          <Bar yAxisId='calories' dataKey='calories' fill='#282D30' radius={[5, 5, 0, 0]}barSize={5} />
         </BarChart>
       </ResponsiveContainer>
     </div>
